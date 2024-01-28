@@ -4,8 +4,7 @@ import { useEffect, useState } from "react";
 import "../coin/Coin.scss";
 import Navbar from "../../components/Navbar/Navbar";
 import DOMPurify from "dompurify";
-
-export default function Coin({ targetCoin }) {
+export const Coin = ({ targetCoin }) => {
   const [data, setData] = useState([]);
 
   function priceFormatter(number) {
@@ -50,6 +49,7 @@ export default function Coin({ targetCoin }) {
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(
                 data.description ? data.description.en : ""
+                
               ),
             }}
           ></p>
