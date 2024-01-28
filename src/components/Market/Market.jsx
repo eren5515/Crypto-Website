@@ -14,7 +14,10 @@ export default function Market({ coinData }) {
   }
 
   const slicedData = coinData.slice(currentPage * 10 - 10, currentPage * 10);
-  const element = document.getElementById("market");
+  let element;
+  if (typeof document !== 'undefined') {  
+    element = document.getElementById("market");
+};
   return (
     <div id="market" className="market-wrapper">
       <h1>Market Update</h1>
