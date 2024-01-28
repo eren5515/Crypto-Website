@@ -1,0 +1,80 @@
+.join-us-wrapper {
+  background-color: #0f051d;
+  display: relative;
+  padding: 9rem 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  h1 {
+    color: white;
+    font-size: 6.3rem;
+    font-weight: 700;
+    text-align: center;
+    width: 46%;
+    line-height: 1.1;
+  }
+
+  span {
+    background-clip: text;
+    color: transparent;
+    background: -webkit-linear-gradient(25deg, #2600fc, #ff00ea);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  button {
+    color: white;
+    background: -webkit-linear-gradient(25deg, #2600fc, #ff00ea);
+    font-weight: 700;
+    padding: 1rem 2.3rem;
+    font-size: 1.2rem;
+    border-radius: 36px;
+
+    margin-top: 3.8rem;
+  }
+}
+
+.floating-img {
+  width: 5rem;
+  animation-duration: 1s;
+    animation-name: move-btc;      
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+    animation-delay: 1s;
+}
+
+.join-us-top-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+@media all and (max-width: 1100px){ 
+
+
+
+ .join-us-wrapper h1 {
+
+  width: 70%;
+  font-size: 3.9rem;
+ }
+
+ .join-us-wrapper p {
+  text-align: center;
+  width: 80%;
+ }
+
+}

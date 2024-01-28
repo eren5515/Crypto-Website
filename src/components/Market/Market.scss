@@ -1,0 +1,134 @@
+.market-wrapper {
+  background-color: #0f051d;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  color: white;
+  align-items: center;
+  padding-bottom: 7rem 0;
+
+  font-weight: 500;
+  h1 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+    width: 66%;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.market-div {
+  width: 66%;
+}
+.market-header-div {
+  display: grid;
+  grid-template-columns: 16fr 25fr 25fr 25fr;
+  width: 100%;
+  padding: 1rem;
+  grid-gap: 2rem;
+  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  text-align: end;
+
+  h3 {
+    font-size: 1.35rem;
+  }
+}
+
+.market-header-div h3:first-child {
+  text-align: start;
+}
+
+.market-coin-div {
+  display: grid;
+  grid-template-columns: 16fr 25fr 25fr 25fr;
+  width: 100%;
+  align-items: center;
+  text-align: end;
+
+  padding: 1.5rem 1rem;
+
+  border-bottom: solid 1px white;
+}
+
+.market-coin-div:hover {
+  background-color: #260a4d;
+}
+
+.market-coin-logo-and-name {
+  img {
+    width: 3rem;
+  }
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+
+  h3 {
+    text-align: left !important;
+  }
+}
+
+.pagination-div {
+    margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    border-radius: 50%;
+    color: black;
+    
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+
+    border: 3px solid black;
+  }
+}
+
+.selected-page {
+    color: white!important;
+    background: linear-gradient(25deg,#2600fc,#ff00ea);
+}
+@media all and (max-width: 1100px){    
+  
+  
+  
+  .market-div {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 86%;
+  }
+
+  .market-header-div {
+    width: fit-content;
+
+    h3 {
+      width: 14rem;
+    }
+  }
+
+  .market-coins-div{
+    width: fit-content;
+  }
+  .market-coin-div {
+    width:fit-content ;
+    grid-gap: 2rem;
+  }
+
+  .market-coin-logo-and-name {
+    width: 15rem;
+  }
+
+  .market-coin-div-element {
+    width: 13.5rem;
+  }
+  
+}
