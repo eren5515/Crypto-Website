@@ -37,7 +37,7 @@ export default function ChooseUs() {
         </div>
         <img
           className="choose-us-middle-img"
-          src="https://cdn.discordapp.com/attachments/336171716126572548/1201110814246060103/choose-main.39852b7511b28d44406f.png?ex=65c8a09d&is=65b62b9d&hm=40f38f3e2254c98e8f8ad3dd84c1db89843f7fc583cd6978e03e9416ad6938bb&"
+          src="https://github.com/eren5515/asd/blob/main/choose-main.39852b7511b28d44406f.png?raw=true"
           alt=""
         />
         <div className="choose-us-items-div">

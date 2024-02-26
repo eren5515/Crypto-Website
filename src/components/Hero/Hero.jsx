@@ -13,8 +13,8 @@ export default function Hero({coinData}) {
 
   return (
     <div className="hero-container">
-      <img className="btc-floating-img floating-img" src="https://cdn.discordapp.com/attachments/336171716126572548/1200923217351676034/bitcoin.png?ex=65c7f1e7&is=65b57ce7&hm=2a2b15b7429736255ee055aaae11bf0d6f3b602f1df3d838d87f1331f25e532b&" alt="" />
-      <img className="eth-floating-img floating-img" src="https://cdn.discordapp.com/attachments/336171716126572548/1200923217074868325/ethereum.png?ex=65c7f1e7&is=65b57ce7&hm=502f0857ace47f484254d5c74184e20c60dd2aa612e63b0bc659ae92ff991ebb&" alt="" />
+      <img className="btc-floating-img floating-img" src="https://github.com/eren5515/asd/blob/main/bitcoin.png?raw=true" alt="" />
+      <img className="eth-floating-img floating-img" src="https://github.com/eren5515/asd/blob/main/ethereum.png?raw=true" alt="" />
       <h1>TRACK AND TRADE <span>CRYPTO CURRENCIES</span></h1>
       <div onLoad={() => setApiLoad(false)} className="top-coins-div">
        {apiLoad && <span className="loader"></span> }
